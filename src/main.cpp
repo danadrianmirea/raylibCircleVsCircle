@@ -4,16 +4,17 @@
 
 int main()
 {
-    SetConfigFlags(FLAG_WINDOW_UNDECORATED);
-    InitWindow(gameScreenWidth, gameScreenHeight, "Adrian's raylib template");
+    //SetConfigFlags(FLAG_WINDOW_UNDECORATED);
+    InitWindow(gameScreenWidth, gameScreenHeight, "Circle vs Circle");
     SetWindowPosition(50, 50);
+    //HideCursor();
 
     InitAudioDevice();
     SetMasterVolume(0.22f);
     SetExitKey(KEY_NULL);
 
     Game game;
-    ToggleBorderlessWindowed();
+    //ToggleBorderlessWindowed();
     SetTargetFPS(144);
 
     float dt = 0.0f;

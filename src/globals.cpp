@@ -6,8 +6,10 @@ Color grey = Color{ 29, 29, 27, 255 };
 Color yellow = Color{ 243, 216, 63, 255 };
 int windowWidth = 1920;
 int windowHeight = 1080;
-const int gameScreenWidth = 1920;
-const int gameScreenHeight = 1080;
+
+//1280 x 720
+const int gameScreenWidth = 800;
+const int gameScreenHeight = 600;
 bool exitWindowRequested = false;
 bool exitWindow = false;
 bool fullscreen = true;
